@@ -8,7 +8,7 @@
 #include <MenuBackend.h>
 #include <ClickEncoder.h>
 #include <TimerOne.h>
-//#include <LCD.h>
+#include <LCD.h>
 #include <LiquidCrystal_I2C.h>
 #include <WString.h>
 #include <Max6675.h>
