@@ -4,7 +4,7 @@
 #define _FELFILMENU_h
 
 #if defined(ARDUINO) && ARDUINO >= 100
-	//#include "arduino.h"
+	#include "Arduino.h"
 #else
 	#include "WProgram.h"
 #endif
@@ -13,7 +13,7 @@
 #include <MenuBackend.h>
 #include <ClickEncoder.h>
 #include <TimerOne.h>
-//#include <LCD.h>
+#include <LCD.h>
 #include <LiquidCrystal_I2C.h>
 #include <WString.h>
 

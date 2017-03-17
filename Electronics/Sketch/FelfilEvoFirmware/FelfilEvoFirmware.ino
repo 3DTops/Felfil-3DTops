@@ -82,7 +82,8 @@ void setup() {
   felfilMenu->SetupPwm(0, 0, 9, 1);
   felfilMenu->SetupTemperature(100, 25, 250, 0.5);
   //felfilMenu->SetupLcdDisplay(I2C_ADDR, En_pin, Rw_pin, Rs_pin, D4_pin, D5_pin, D6_pin, D7_pin, BACKLIGHT_PIN, POSITIVE);
-  felfilMenu->SetupLcdDisplay  (0x3F, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);  
+  felfilMenu->SetupLcdDisplay  (I2C_ADDR, En_pin, Rw_pin, Rs_pin, D4_pin, D5_pin, D6_pin, D7_pin, BACKLIGHT_PIN, POSITIVE);
+  /*
   felfilMenu->SetupClickEncoder(9, 8, 7);
   felfilMenu->SetupEngineCurrentRefreshInterval(EngineCurrentLcdRefreshInterval);
 
@@ -99,6 +100,7 @@ void setup() {
   felfilReader = new FelfilReader(&ts, PWM_InputCurrentPin);
   felfilReader->SetupEngineCurrentSamples(EngineCurrentSamples, EngineCurrentSampleTime);
   felfilReader->SetupTemperatureSamples(TemperatureSamples, TemperatureSampleTime);
+  */
 }
 
 // the loop function runs over and over again until power down or reset
