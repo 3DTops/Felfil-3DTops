@@ -7,7 +7,7 @@
 //#include "FakePid.h"
 
 #if defined(ARDUINO) && ARDUINO >= 100
-	#include "arduino.h"
+	//#include "arduino.h"
 #else
 	#include "WProgram.h"
 #endif
@@ -23,7 +23,7 @@ class FelfilControler
 private:
 	PID* pid;
 	
-	//attivazione modalità di protezione
+	//attivazione modalitï¿½ di protezione
 	bool protectionModeActivated = false;
 
 	//temperatura rilevata

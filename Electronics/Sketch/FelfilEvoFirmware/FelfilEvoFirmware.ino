@@ -27,14 +27,14 @@
 
 
 #define I2C_ADDR 0x3F
-#define BACKLIGHT_PIN 3
-#define En_pin 2
+#define BACKLIGHT_PIN 39
+#define En_pin 17
 #define Rw_pin 1
-#define Rs_pin 0
-#define D4_pin 4
-#define D5_pin 5
-#define D6_pin 6
-#define D7_pin 7
+#define Rs_pin 16
+#define D4_pin 23
+#define D5_pin 25
+#define D6_pin 27
+#define D7_pin 29
 
 
 #define Ts_Pin_Dt 12
